@@ -1,10 +1,16 @@
-#include "dealing-cards.h"
+#include "dealingCards.h"
+#include "gameLogic.h"
 using namespace std;
 
+// commands - give
+
 int main () {
-    string handHuman[6];
-    string handComputer[6];
+    vector<string> handHuman;
+    vector<string> handComputer;
     vector<string> deck;
-    dealingCards(handHuman, handComputer, &deck);
+
+    dealingCards(&handHuman, &handComputer, &deck);
+    gameLogic(&handHuman, &handComputer, &deck);
+
     return 0;
 }
