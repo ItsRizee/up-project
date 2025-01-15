@@ -4,5 +4,7 @@ project(project_up)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(project_up main.cpp
-        dealing-cards.cpp
-        dealing-cards.h)
+        dealingCards.cpp
+        dealingCards.h
+        gameLogic.cpp
+        gameLogic.h)
