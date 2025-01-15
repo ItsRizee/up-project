@@ -1,8 +1,8 @@
-#include "dealingCards.h"
 #include <string>
 #include <cstdlib>
 #include <ctime>
 #include <vector>
+#include "dealingCards.h"
 using namespace std;
 
 
@@ -65,7 +65,7 @@ void dealingCards(vector<string> *handHuman, vector<string> *handComputer, vecto
     *deck = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A",
         "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A",
         "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A",
-        "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A",};
+        "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
 
     dealingCardsForHuman(handHuman, deck);
 
