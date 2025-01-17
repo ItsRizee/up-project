@@ -7,4 +7,6 @@ add_executable(project_up main.cpp
         dealingCards.cpp
         dealingCards.h
         gameLogic.cpp
-        gameLogic.h)
+        gameLogic.h
+        secondGamePhase.cpp
+        secondGamePhase.h)

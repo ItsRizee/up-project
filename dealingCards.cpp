@@ -1,3 +1,19 @@
+/**
+*
+* Solution to course project # 08
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2023/2024
+*
+* @author Nikola Petrov
+* @idnumber 3MI0600533
+* @compiler GCC
+*
+* This file's purpose is to implement the dealing of cards
+* before the game starts
+*
+*/
+
 #include <string>
 #include <cstdlib>
 #include <ctime>
