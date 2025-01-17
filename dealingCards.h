@@ -22,6 +22,11 @@
 
 void dealingCardsForHuman(std::vector<std::string> *handHuman, std::vector<std::string> *deck);
 void dealingCardsForComputer(std::vector<std::string> *handComputer, std::vector<std::string> *deck);
+int getCardRank(const std::string card);
+void swapCards(std::string *cardA, std::string *cardB);
+void sortHand(std::vector<std::string> *hand);
+void returnCardsToDeck(std::vector<std::string> *hand, std::vector<std::string> *deck);
+bool isValidHand(std::vector<std::string> *hand, std::vector<std::string> *deck);
 void dealingCards(std::vector<std::string> *handHuman, std::vector<std::string> *handComputer, std::vector<std::string> *deck);
 
 #endif
