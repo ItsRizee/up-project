@@ -14,6 +14,7 @@
 *
 */
 
+#include <iostream>
 #include "dealingCards.h"
 #include "gameLogic.h"
 #include "secondGamePhase.h"
@@ -25,6 +26,12 @@ int main () {
     vector<string> deck;
     vector<string> pileHuman;
     vector<string> pileComputer;
+
+    cout << endl << endl << "Welcome to \"Mind Your Own Business\"" << endl << endl;
+    cout << "Commands: " << endl;
+    cout << "When computer ask for a card: give" << endl;
+    cout << "When you need to take down 4 of a kind: down" << endl << endl;
+    cout << "Let the game begin!" << endl;
 
     dealingCards(&handHuman, &handComputer, &deck);
     gameLogic(&handHuman, &handComputer, &deck, &pileHuman, &pileComputer);
